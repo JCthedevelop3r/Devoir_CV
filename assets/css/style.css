@@ -2,6 +2,7 @@ body{
     display: block;
     width: 1160px;
     margin: auto;
+    padding: 0 387px 0 387px;
 }
 
 #section-header-1{
@@ -9,18 +10,21 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    background-color: #782221;
 }
 
 #section-header-2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #2c1d27;
 }
 
 #article-1{
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
+    
 }
 
 #article-2{
@@ -32,9 +36,32 @@ body{
 main{
     display: flex;
     flex-direction: row;
+    background-color: #782221;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    background-color: #782221;
 }
+
+h2{
+    background-color: #dbc2a4;
+}
+
+#p-1-article-1{
+    color: white;
+}
+
+#ul-1-article-1{
+    color: white;
+}
+#ul-2-article-1{
+    color: white;
+}
+
+
+
+
+
+
