@@ -64,6 +64,13 @@ address{
     width: 320px;
     font-size: 0.8em;
     font-weight: 300;
+    text-decoration: none;
+    color:white
+}
+
+#lien-address{
+    text-decoration: none;
+    color:white
 }
 
 #span-header{
@@ -74,6 +81,11 @@ address{
     align-self: center;
     text-align: end;
     font-size: 0.8em;
+}
+
+#lien-tel{
+    text-decoration: none;
+    color:white
 }
 
 span{
@@ -93,6 +105,18 @@ span{
     align-self: center;
     text-align: center;
     font-size: 0.8em;
+}
+
+address > #lien-address:hover{
+    text-decoration: underline;
+}
+
+#span-e-mail > #e-mail:hover{
+    text-decoration: underline;
+}
+
+#span-header > #lien-tel:hover{
+    text-decoration: underline;
 }
 
 p{
@@ -344,19 +368,20 @@ h3{
     align-self: center;
     margin-bottom: 1%;
     box-shadow: 0 0 15px #dbc2a4;
+    cursor: zoom-in;
 }
 
 #logo-linkedin{
     width: 30px;
     height: 30px;
-    padding: 0 5px 0 0 ;
-    
+    padding: 0 5px 0 0;
 }
 
 #logo-twitter{
     width: 30px;
     height: 30px;
     padding: 0 5px 0 5px;
+    border-radius: 25%;
 }
 
 #logo-github{
@@ -376,5 +401,15 @@ h3{
     align-self: center;
 }
 
+#lien-pdp{
+    align-self: center;
+}
 
+#pdp-blank{
+    width: 75%;
+    height: 75%;
+}
 
+#réseaux-sociaux > img:hover{
+    opacity: 75%;
+}
