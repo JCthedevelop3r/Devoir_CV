@@ -29,6 +29,7 @@ body{
     background-color: #782221;
     color: white;
     padding-bottom: 2%;
+    padding-top: 4%;
 }
 
 h1{
@@ -63,6 +64,13 @@ address{
     width: 320px;
     font-size: 0.8em;
     font-weight: 300;
+    text-decoration: none;
+    color:white
+}
+
+#lien-address{
+    text-decoration: none;
+    color:white
 }
 
 #span-header{
@@ -73,6 +81,11 @@ address{
     align-self: center;
     text-align: end;
     font-size: 0.8em;
+}
+
+#lien-tel{
+    text-decoration: none;
+    color:white
 }
 
 span{
@@ -92,6 +105,18 @@ span{
     align-self: center;
     text-align: center;
     font-size: 0.8em;
+}
+
+address > #lien-address:hover{
+    text-decoration: underline;
+}
+
+#span-e-mail > #e-mail:hover{
+    text-decoration: underline;
+}
+
+#span-header > #lien-tel:hover{
+    text-decoration: underline;
 }
 
 p{
@@ -122,7 +147,10 @@ main{
 
 footer{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     background-color: #782221;
     color: white;
     font-family: 'Raleway';
@@ -332,7 +360,56 @@ h3{
     border-right-style: solid;
 }
 
+#Photo_de_profil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 1%;
+    box-shadow: 0 0 15px #dbc2a4;
+    cursor: zoom-in;
+}
 
+#logo-linkedin{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px 0 0;
+}
 
+#logo-twitter{
+    width: 30px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+    border-radius: 25%;
+}
 
+#logo-github{
+    width: 30px;
+    height: 30px;
+    padding: 0 0 0 5px;
+}
 
+#réseaux-sociaux{
+    display: block;
+    align-self: center;
+    margin-top: 18px;
+}
+
+#dernière-mise-à-jour{
+    display: block;
+    align-self: center;
+}
+
+#lien-pdp{
+    align-self: center;
+}
+
+#pdp-blank{
+    width: 75%;
+    height: 75%;
+}
+
+#réseaux-sociaux > img:hover{
+    opacity: 75%;
+}
